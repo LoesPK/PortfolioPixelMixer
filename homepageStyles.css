@@ -35,9 +35,14 @@ body{
     align-items: center;
     justify-content: center;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
     width: 35%;
-    height: 500px;
+    height: 450px;
     overflow: hidden;
+    background-size: contain;
+    
+    height: auto;
 }
 
 .card2{
@@ -45,8 +50,11 @@ body{
     align-items: center;
     justify-content: center;
     background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     width: 50%;
-    height: 500px;
+    background-size: contain;
+    height: 0;
     overflow: hidden;
 }
 
@@ -61,10 +69,10 @@ body{
 		overflow: hidden;
 }
 .drie-d:hover{
-background-size: 110%;
+/* background-size: 110%; */
 }
 .drie-d:hover::after{
-    background-image: url(3d-overlay.png);
+    background-image: url(img/3d-overlay.png);
     background-repeat: no-repeat;
     background-position: center center;
 			background-color:rgba(255, 108, 0, 0.7);
@@ -83,10 +91,10 @@ background-size: 110%;
     overflow: hidden;
 }
 .print:hover{
-background-size: 110%;
+/* background-size: 110%; */
 }
 .print:hover::after{
-background-image: url(print.png);
+background-image: url(img/print.png);
 background-repeat: no-repeat;
 background-position: center center;
         background-color:rgba(255, 108, 0, 0.7);
@@ -106,10 +114,10 @@ background-position: center center;
     overflow: hidden;
 }
 .ux:hover{
-background-size: 110%;
+/* background-size: 110%; */
 }
 .ux:hover::after{
-background-image: url(ux-overlay.png);
+background-image: url(img/ux-overlay.png);
 background-repeat: no-repeat;
 background-position: center center;
         background-color:rgba(255, 108, 0, 0.7);
@@ -129,10 +137,10 @@ background-position: center center;
     overflow: hidden;
 }
 .web:hover{
-background-size: 110%;
+/* background-size: 110%; */
 }
 .web:hover::after{
-background-image: url(web-overlay.png);
+background-image: url(img/web-overlay.png);
 background-repeat: no-repeat;
 background-position: center center;
         background-color:rgba(255, 108, 0, 0.7);
